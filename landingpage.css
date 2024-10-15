@@ -1,0 +1,289 @@
+.footer {
+
+   height: 100px;
+   width: 100%;
+   border-radius: 2px;
+   display: flex;
+   background-color: rgba(8, 71, 95, 0.4);
+   align-items: center;
+   position: relative;
+   top: 5px;
+}
+
+#logo {
+   height: 98px;
+   width: 98px;
+}
+
+div ul {
+   margin-left: 60px;
+}
+
+div ul li {
+   display: inline-block;
+   list-style: none;
+   justify-content: space-between;
+   margin-right: 20px;
+   margin-left: 20px;
+}
+
+div ul li a {
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+}
+
+div ul li a:hover {
+   color: rgb(195, 15, 15);
+}
+
+.search_input {
+   margin-left: 80px;
+   border: 1px solid;
+   border-radius: 20px;
+   width: 200px;
+   padding: 7px;
+   background-image: url(search.jpg);
+   background-repeat: no-repeat;
+   background-size: 30px 30px;
+   background-position: right center;
+   padding-right: 40px;
+}
+
+.img {
+   display: flex;
+   margin-right: 60px;
+}
+
+.img p {
+   margin-left: 50px;
+   text-align: center;
+   margin-right: 10px;
+}
+
+.img img {
+   height: 20px;
+   width: 20px;
+   display: flex;
+   text-align: center;
+   border-radius: 40px;
+   margin-top: 15px;
+   margin-left: 5px;
+   cursor: pointer;
+}
+
+.img img:hover {
+   box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
+
+div p {
+   margin-left: 10px;
+}
+
+.info {
+   position: relative;
+   width: 1100px;
+   height: 400px;
+   margin-top: 10px;
+   padding-top: 250px;
+   padding-left: 400px;
+   color: black;
+   font-style: bold;
+}
+
+.info::before {
+   content: "";
+   background: url('bg.jpg') no-repeat center center;
+   background-size: cover;
+   opacity: 0.5;
+   /* Adjust the transparency */
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+   /* Ensure the image is behind the text */
+}
+
+.text {
+   position: relative;
+   padding: 10px;
+
+}
+
+.text input {
+   background-color: blue;
+   color: white;
+   width: 180px;
+   margin-left: 20px;
+   cursor: pointer;
+   border-radius: 20px;
+   border: none;
+   padding: 10px;
+}
+
+.text input:hover {
+   background-color: rgb(84, 84, 208);
+}
+
+h2 {
+   margin-top: 100px;
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+.places {
+   display: flex;
+}
+
+.paris img {
+   height: 200px;
+   width: 200px;
+   margin-left: 220px;
+}
+
+.paris img:hover {
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+.paris h3 {
+   margin-left: 220px;
+
+}
+
+.paris p {
+
+   margin-left: 220px;
+}
+
+.italy img {
+   height: 200px;
+   width: 200px;
+   margin-left: 220px;
+}
+
+.italy img:hover {
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+.italy h3 {
+   margin-left: 220px;
+
+}
+
+.italy p {
+
+   margin-left: 220px;
+}
+
+.london img {
+   height: 200px;
+   width: 200px;
+   margin-left: 220px;
+}
+
+.london img:hover {
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+.london h3 {
+   margin-left: 220px;
+
+}
+
+.london p {
+
+   margin-left: 220px;
+}
+
+.tour {
+   position: relative;
+}
+
+.tour h2 {
+   text-align: center;
+   margin-bottom: 5px;
+   padding-top: 80px;
+}
+
+.tour p {
+   text-align: center;
+   margin-top: 5px;
+}
+
+.images {
+   display: flex;
+
+}
+
+.price img {
+   height: 150px;
+   width: 150px;
+   margin-left: 230px;
+   margin-top: 50px;
+}
+
+.price h3 {
+   margin-left: 230px;
+}
+
+.world img {
+   height: 150px;
+   width: 150px;
+   margin-left: 230px;
+   margin-top: 50px;
+}
+
+.world h3 {
+   margin-left: 230px;
+}
+
+.high img {
+   height: 150px;
+   width: 150px;
+   margin-left: 230px;
+   margin-top: 50px;
+}
+
+.high h3 {
+   margin-left: 230px;
+}
+
+.tour::before {
+   content: "";
+   background-image: url('bg2.jpg');
+   opacity: 0.5;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+}
+
+.rights {
+   height: 100px;
+   width: 100%;
+   border-radius: 2px;
+   background-color: rgba(8, 71, 95, 0.4);
+   align-items: center;
+   position: relative;
+   text-align: center;
+   justify-content: space-between;
+   padding-bottom: 20px;
+}
+
+.rights p {
+   padding-top: 30px;
+}
+
+.rights h4 {
+   font-weight: lighter;
+   padding-top: 1px;
+}
